@@ -1,0 +1,25 @@
+# YOLOv8 Dataset Configuration File
+# Path configuration (relative to this file)
+path: ../dataset  # dataset root dir
+train: images/train  # train images (relative to 'path')
+val: images/val  # val images (relative to 'path')
+test: images/test  # test images (optional, relative to 'path')
+
+# Classes
+names:
+  0: vehicle
+  1: pedestrian
+  2: bicycle
+  3: motorcycle
+  4: fire
+  5: smoke
+  6: traffic_sign_stop
+  7: traffic_sign_yield
+  8: traffic_sign_speed_limit
+  9: lane_line
+
+# Number of classes
+nc: 10
+
+# Additional metadata
+download: false
